@@ -1,0 +1,238 @@
+/*-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;*/
+
+/* font and layout*/
+body {
+	background-color: gray;
+	font-family: Montserrat, Arial, sans-serif;
+	margin: 0;
+}
+
+/*Nav*/
+html {
+	scroll-behavior: smooth;
+}
+
+nav {
+	height: 45px;
+    padding: 2px;
+    border: 1px solid white;
+    border-radius: 16px;
+    margin: 1px 1px 3px 1px; /*t r b l*/
+}
+
+.menu ul {
+    list-style-type: none;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.menu ul a {
+    margin: 0 10px;
+    letter-spacing: 2px; 
+    border: 1px solid white;
+    border-radius: 16px;
+    padding: 8px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.rightside {
+	float: right;
+	margin: 0 10px;
+}
+
+.menu ul a:hover {
+	color: orange;
+	background: white;
+}
+
+.menuitem {
+    display: inline; /* inline vs inline-block; li's*/
+}
+/*End Nav*/
+
+/*landing box*/
+.landingbox {
+	background: no-repeat url('https://images.unsplash.com/photo-1544077960-604201fe74bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80');
+	background-color: gray; /* if img don't load */
+/*	background: no-repeat url('/image/jacky.PNG');
+*/	height: 1200px;
+	/* center/80% - center with 80% total width */
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	border: 1px solid white;
+	border-bottom-style: none;
+}
+
+/*landing box text*/
+.landingboxtext {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 25px;
+	text-shadow: 2px 2px black;
+}
+
+/*executive summary*/
+.execsummary {
+	background: no-repeat url('https://images.unsplash.com/photo-1544592672-b653368be8a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80');
+	background-color: gray; /* if img don't load */
+/*	background: no-repeat url('/image/jacky.PNG');
+*/	height: 1200px;
+	/* center/80% - center with 80% total width */
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	border: 1px solid silver;
+}
+
+/*executive summary text*/
+.execsummarytext {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 25px;
+	text-shadow: 2px 2px black;
+}
+
+button {
+	font-variant: small-caps;
+}
+
+/*section headers - projects, courses, etc*/
+h2 {
+	font-variant: small-caps;
+	background-color: silver;
+	padding: 5px;
+}
+
+.section {
+	padding: 5px;
+	border-radius: 8px;
+	border: 0.5px solid lightgray;
+}
+
+.maincontent {
+	margin: 0 10%;
+}
+
+/*Displays*/
+.counters {
+	background: blue;
+	font-weight: bold;
+	font-variant: small-caps;
+	margin: 25px 10%;
+	height: 500px;
+	border: 3px solid black;
+	border-radius: 50px 50px 50px 50px;
+	box-shadow: 1px 1px silver;
+}
+
+.counters p {
+	display: inline-block;
+	float: left;
+	text-align: center;
+	margin: 1.66%;
+	width: 30%;
+	height: 400px;
+}
+
+.counters img {
+	display: inline-block;
+	float: left;
+	margin: 1.66%;
+	width: 100%;
+	height: 400px;
+}
+/*End of Displays*/
+
+.projects, .projects2  {
+
+}
+
+.projects p, .projects2 p {
+	font-variant: small-caps;
+	font-weight: bold;
+	border: 1px solid black;
+	margin: 1.66%;
+	padding: 5px;
+}
+
+.projects {
+	background: #4286f4;
+}
+
+.projects2 {
+	background: #ff9b59;
+}
+
+.workexp {
+	background: #e85a63;
+}
+
+.education {
+	background: #238c50;
+}
+
+.education img {
+	text-align: center;
+}
+
+.additionalcourses {
+
+}
+
+.tridisp {
+
+}
+
+.tridisp_elems {
+
+}
+
+/*Footer Stuff*/
+#landingboxtext a {
+	text-decoration: none;
+	color: black;
+}
+
+.anchor {
+	border: 1px solid white;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.anchor a {
+    text-decoration: underline; 
+    color: black;
+    font-size: 15px;
+    margin-top: 15px; 
+    margin-right: 10px;
+    margin-bottom: 15px;
+    margin-left: 10px; 
+}
+
+.anchor a:hover {
+	color: white;
+}
+
+.anchor span:hover {
+	color: white;
+}
+
+.footer {
+    font: 15px solid;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
